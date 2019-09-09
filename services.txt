@@ -1,0 +1,28 @@
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  Last ANR service:
+ServiceRecord{b9bce30 u0 org.xinkb.blackboard.android/com.xiaoheiban.media.MediaService}
+    intent={act=android.media.browse.MediaBrowserService cmp=org.xinkb.blackboard.android/com.xiaoheiban.media.MediaService}
+    packageName=org.xinkb.blackboard.android
+    processName=org.xinkb.blackboard.android
+    baseDir=/data/app/org.xinkb.blackboard.android-06JIrnBBe3aMo337xMWfJQ==/base.apk
+    dataDir=/data/user/0/org.xinkb.blackboard.android
+    app=ProcessRecord{2acc615 12567:org.xinkb.blackboard.android/u0a494}
+    createTime=-5m44s284ms startingBgTimeout=--
+    lastActivity=-10s875ms restartTime=-5m44s283ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=false lastStartId=1
+    executeNesting=1 executeFg=true executingStart=-10s875ms
+    Delivered Starts:
+    #0 id=1 dur=-10s875ms dc=1
+      intent=Intent { cmp=org.xinkb.blackboard.android/com.xiaoheiban.media.MediaService }
+    Bindings:
+    * IntentBindRecord{dcccc4a CREATE}:
+      intent={act=android.media.browse.MediaBrowserService cmp=org.xinkb.blackboard.android/com.xiaoheiban.media.MediaService}
+      binder=android.os.BinderProxy@1adb7bb
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{a9464d8 ProcessRecord{2acc615 12567:org.xinkb.blackboard.android/u0a494}}
+        Per-process Connections:
+          ConnectionRecord{7e60f73 u0 CR org.xinkb.blackboard.android/com.xiaoheiban.media.MediaService:@e854fe2}
+    All Connections:
+      ConnectionRecord{7e60f73 u0 CR org.xinkb.blackboard.android/com.xiaoheiban.media.MediaService:@e854fe2}
+
+  (nothing)

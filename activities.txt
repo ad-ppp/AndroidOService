@@ -1,0 +1,286 @@
+ACTIVITY MANAGER ACTIVITIES (dumpsys activity activities)
+Display #0 (activities from top to bottom):
+
+  Stack #111: type=standard mode=fullscreen
+  isSleeping=true
+  mBounds=Rect(0, 0 - 0, 0)
+    Task id #521
+    mBounds=Rect(0, 0 - 0, 0)
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{2636f11 #521 A=com.xhb.androidoservice U=0 StackId=111 sz=1}
+      userId=0 effectiveUid=u0a469 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+      affinity=com.xhb.androidoservice
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.xhb.androidoservice/.MainActivity}
+      realActivity=com.xhb.androidoservice/.MainActivity
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 activityType=1
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{220dbe4 u0 com.xhb.androidoservice/.MainActivity t521}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      mRootProcess=ProcessRecord{701d250 15457:com.xhb.androidoservice/u0a469}
+      stackId=111
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true lastActiveTime=562840131 (inactive for 146s)
+      * Hist #0: ActivityRecord{220dbe4 u0 com.xhb.androidoservice/.MainActivity t521}
+          packageName=com.xhb.androidoservice processName=com.xhb.androidoservice
+          launchedFromUid=2000 launchedFromPackage=null userId=0
+          app=ProcessRecord{701d250 15457:com.xhb.androidoservice/u0a469}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.xhb.androidoservice/.MainActivity }
+          frontOfTask=true task=TaskRecord{2636f11 #521 A=com.xhb.androidoservice U=0 StackId=111 sz=1}
+          taskAffinity=com.xhb.androidoservice
+          realActivity=com.xhb.androidoservice/.MainActivity
+          baseDir=/data/app/com.xhb.androidoservice-WoW1ddTsCz2WP8miBSwn5g==/base.apk
+          dataDir=/data/user/0/com.xhb.androidoservice
+          stateNotNeeded=false componentSpecified=true mActivityType=standard
+          compat={480dpi} labelRes=0x7f0b0027 icon=0x7f0a0000 theme=0x7f0c0005
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN_#Hans,en_AS] ldltr sw360dp w360dp h696dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} nonFullScreen=0 suim:1 s.27}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN_#Hans,en_AS] ldltr sw360dp w360dp h696dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2160) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=standard} nonFullScreen=0 suim:1 s.27}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN_#Hans,en_AS] ldltr sw360dp w360dp h696dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2160) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=standard} nonFullScreen=0 suim:1 s.27}
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=ff008577
+           backgroundColor=fffafafa
+           statusBarColor=ff00574b
+           navigationBarColor=fefcfcfb
+          launchFailed=false launchCount=1 lastLaunchTime=-10m59s78ms
+          haveState=false icicle=null
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=true idle=true mStartingWindowState=STARTING_WINDOW_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=false lastVisibleTime=-10m58s387ms
+          resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+
+    Running activities (most recent first):
+      TaskRecord{2636f11 #521 A=com.xhb.androidoservice U=0 StackId=111 sz=1}
+        Run #0: ActivityRecord{220dbe4 u0 com.xhb.androidoservice/.MainActivity t521}
+
+    mLastPausedActivity: ActivityRecord{220dbe4 u0 com.xhb.androidoservice/.MainActivity t521}
+
+  Stack #110: type=standard mode=fullscreen
+  isSleeping=true
+  mBounds=Rect(0, 0 - 0, 0)
+
+    Task id #520
+    mBounds=Rect(0, 0 - 0, 0)
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{853a876 #520 A=org.xinkb.blackboard.android U=0 StackId=110 sz=1}
+      userId=0 effectiveUid=u0a494 mCallingUid=u0a494 mUserSetupComplete=true mCallingPackage=org.xinkb.blackboard.android
+      affinity=org.xinkb.blackboard.android
+      intent={flg=0x10000000 cmp=org.xinkb.blackboard.android/.ui.activity.media.MediaDetailActivity}
+      realActivity=org.xinkb.blackboard.android/.ui.activity.media.MediaDetailActivity
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 activityType=1
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{94df5f u0 org.xinkb.blackboard.android/.ui.activity.media.MediaDetailActivity t520}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      mRootProcess=ProcessRecord{2acc615 12567:org.xinkb.blackboard.android/u0a494}
+      stackId=110
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true lastActiveTime=562327880 (inactive for 659s)
+      * Hist #0: ActivityRecord{94df5f u0 org.xinkb.blackboard.android/.ui.activity.media.MediaDetailActivity t520}
+          packageName=org.xinkb.blackboard.android processName=org.xinkb.blackboard.android
+          launchedFromUid=10494 launchedFromPackage=org.xinkb.blackboard.android userId=0
+          app=ProcessRecord{2acc615 12567:org.xinkb.blackboard.android/u0a494}
+          Intent { flg=0x10000000 cmp=org.xinkb.blackboard.android/.ui.activity.media.MediaDetailActivity }
+          frontOfTask=true task=TaskRecord{853a876 #520 A=org.xinkb.blackboard.android U=0 StackId=110 sz=1}
+          taskAffinity=org.xinkb.blackboard.android
+          realActivity=org.xinkb.blackboard.android/.ui.activity.media.MediaDetailActivity
+          baseDir=/data/app/org.xinkb.blackboard.android-06JIrnBBe3aMo337xMWfJQ==/base.apk
+          dataDir=/data/user/0/org.xinkb.blackboard.android
+          stateNotNeeded=false componentSpecified=true mActivityType=standard
+          compat={480dpi} labelRes=0x7f0f00c4 icon=0x7f0d006c theme=0x7f1001eb
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN_#Hans,en_AS] ldltr sw360dp w360dp h696dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} nonFullScreen=0 suim:1 s.27}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN_#Hans,en_AS] ldltr sw360dp w360dp h696dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2160) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=standard} nonFullScreen=0 suim:1 s.27}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN_#Hans,en_AS] ldltr sw360dp w360dp h696dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2160) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=standard} nonFullScreen=0 suim:1 s.27}
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=ff2b2b2b
+           backgroundColor=ff303030
+           statusBarColor=ff2b2b2b
+           navigationBarColor=fefcfcfb
+          launchFailed=false launchCount=0 lastLaunchTime=-17m47s471ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=3040]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=true idle=true mStartingWindowState=STARTING_WINDOW_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=3
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=false lastVisibleTime=-17m46s195ms
+          resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+
+    Running activities (most recent first):
+      TaskRecord{853a876 #520 A=org.xinkb.blackboard.android U=0 StackId=110 sz=1}
+        Run #0: ActivityRecord{94df5f u0 org.xinkb.blackboard.android/.ui.activity.media.MediaDetailActivity t520}
+
+    mLastPausedActivity: ActivityRecord{94df5f u0 org.xinkb.blackboard.android/.ui.activity.media.MediaDetailActivity t520}
+
+  Stack #108: type=standard mode=fullscreen
+  isSleeping=true
+  mBounds=Rect(0, 0 - 0, 0)
+
+    Task id #518
+    mBounds=Rect(0, 0 - 0, 0)
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{f34d054 #518 A=org.xinkb.blackboard.android U=0 StackId=108 sz=2}
+      userId=0 effectiveUid=u0a494 mCallingUid=u0a494 mUserSetupComplete=true mCallingPackage=org.xinkb.blackboard.android
+      affinity=org.xinkb.blackboard.android
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.xinkb.blackboard.android/.ui.activity.login.LoadingActivity}
+      realActivity=org.xinkb.blackboard.android/.ui.activity.login.LoadingActivity
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 activityType=1
+      rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{358ae3d u0 org.xinkb.blackboard.android/.ui.activity.MainActivity t518}, ActivityRecord{c2afb9f u0 org.xinkb.blackboard.android/.ui.activity.weex.WxPageActivity t518}]
+      askedCompatMode=false inRecents=false isAvailable=true
+      stackId=108
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true lastActiveTime=561919624 (inactive for 1067s)
+      * Hist #1: ActivityRecord{c2afb9f u0 org.xinkb.blackboard.android/.ui.activity.weex.WxPageActivity t518}
+          packageName=org.xinkb.blackboard.android processName=org.xinkb.blackboard.android
+          launchedFromUid=10494 launchedFromPackage=org.xinkb.blackboard.android userId=0
+          app=ProcessRecord{2acc615 12567:org.xinkb.blackboard.android/u0a494}
+          Intent { act=com.blackboard.android.intent.action.WEEX cat=[com.blackboard.android.intent.category.WEEX] dat=file:///data/user/0/org.xinkb.blackboard.android/files/xp/xiaozhitianxia/19/xp.js cmp=org.xinkb.blackboard.android/.ui.activity.weex.WxPageActivity (has extras) }
+          frontOfTask=false task=TaskRecord{f34d054 #518 A=org.xinkb.blackboard.android U=0 StackId=108 sz=2}
+          taskAffinity=org.xinkb.blackboard.android
+          realActivity=org.xinkb.blackboard.android/.ui.activity.weex.WxPageActivity
+          baseDir=/data/app/org.xinkb.blackboard.android-06JIrnBBe3aMo337xMWfJQ==/base.apk
+          dataDir=/data/user/0/org.xinkb.blackboard.android
+          stateNotNeeded=false componentSpecified=true mActivityType=standard
+          compat={480dpi} labelRes=0x7f0f00c4 icon=0x7f0d006c theme=0x7f100170
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN_#Hans,en_AS] ldltr sw360dp w360dp h696dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} nonFullScreen=0 suim:1 s.27}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN_#Hans,en_AS] ldltr sw360dp w360dp h696dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2160) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=standard} nonFullScreen=0 suim:1 s.27}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN_#Hans,en_AS] ldltr sw360dp w360dp h696dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2160) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=standard} nonFullScreen=0 suim:1 s.27}
+          resultTo=ActivityRecord{358ae3d u0 org.xinkb.blackboard.android/.ui.activity.MainActivity t518} resultWho=null resultCode=3000
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=ff212121
+           backgroundColor=ff303030
+           statusBarColor=ff000000
+           navigationBarColor=fefcfcfb
+          launchFailed=false launchCount=0 lastLaunchTime=-18m51s315ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=2244]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=true idle=true mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+          fullscreen=false noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=false lastVisibleTime=-18m50s311ms
+          resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+      * Hist #0: ActivityRecord{358ae3d u0 org.xinkb.blackboard.android/.ui.activity.MainActivity t518}
+          packageName=org.xinkb.blackboard.android processName=org.xinkb.blackboard.android
+          launchedFromUid=10494 launchedFromPackage=org.xinkb.blackboard.android userId=0
+          app=ProcessRecord{2acc615 12567:org.xinkb.blackboard.android/u0a494}
+          Intent { flg=0x10000000 cmp=org.xinkb.blackboard.android/.ui.activity.MainActivity (has extras) }
+          frontOfTask=true task=TaskRecord{f34d054 #518 A=org.xinkb.blackboard.android U=0 StackId=108 sz=2}
+          taskAffinity=org.xinkb.blackboard.android
+          realActivity=org.xinkb.blackboard.android/.ui.activity.MainActivity
+          baseDir=/data/app/org.xinkb.blackboard.android-06JIrnBBe3aMo337xMWfJQ==/base.apk
+          dataDir=/data/user/0/org.xinkb.blackboard.android
+          stateNotNeeded=false componentSpecified=true mActivityType=standard
+          compat={480dpi} labelRes=0x7f0f00c4 icon=0x7f0d006c theme=0x7f1001eb
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN_#Hans,en_AS] ldltr sw360dp w360dp h696dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} nonFullScreen=0 suim:1 s.27}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN_#Hans,en_AS] ldltr sw360dp w360dp h696dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2160) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=standard} nonFullScreen=0 suim:1 s.27}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN_#Hans,en_AS] ldltr sw360dp w360dp h696dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2160) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=standard} nonFullScreen=0 suim:1 s.27}
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=ff2b2b2b
+           backgroundColor=ff303030
+           statusBarColor=ff2b2b2b
+           navigationBarColor=fefcfcfb
+          launchFailed=false launchCount=0 lastLaunchTime=-33m28s118ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=17716]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=true idle=true mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=false lastVisibleTime=-19m10s653ms
+          resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+
+    Running activities (most recent first):
+      TaskRecord{f34d054 #518 A=org.xinkb.blackboard.android U=0 StackId=108 sz=2}
+        Run #1: ActivityRecord{c2afb9f u0 org.xinkb.blackboard.android/.ui.activity.weex.WxPageActivity t518}
+        Run #0: ActivityRecord{358ae3d u0 org.xinkb.blackboard.android/.ui.activity.MainActivity t518}
+
+    mLastPausedActivity: ActivityRecord{c2afb9f u0 org.xinkb.blackboard.android/.ui.activity.weex.WxPageActivity t518}
+
+  Stack #0: type=home mode=fullscreen
+  isSleeping=true
+  mBounds=Rect(0, 0 - 0, 0)
+
+    Task id #1
+    mBounds=Rect(0, 0 - 0, 0)
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{af3e269 #1 A=com.huawei.android.launcher U=0 StackId=0 sz=1}
+      userId=0 effectiveUid=u0a70 mCallingUid=u0a70 mUserSetupComplete=true mCallingPackage=com.huawei.android.launcher
+      affinity=com.huawei.android.launcher
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000300 cmp=com.huawei.android.launcher/.unihome.UniHomeLauncher}
+      realActivity=com.huawei.android.launcher/.unihome.UniHomeLauncher
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 activityType=2
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{3bb4564 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      mRootProcess=ProcessRecord{cb23fc9 2081:com.huawei.android.launcher/u0a70}
+      stackId=0
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE mSupportsPictureInPicture=false isResizeable=true lastActiveTime=560958812 (inactive for 2028s)
+      * Hist #0: ActivityRecord{3bb4564 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}
+          packageName=com.huawei.android.launcher processName=com.huawei.android.launcher
+          launchedFromUid=0 launchedFromPackage=null userId=0
+          app=ProcessRecord{cb23fc9 2081:com.huawei.android.launcher/u0a70}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000300 cmp=com.huawei.android.launcher/.unihome.UniHomeLauncher }
+          frontOfTask=true task=TaskRecord{af3e269 #1 A=com.huawei.android.launcher U=0 StackId=0 sz=1}
+          taskAffinity=com.huawei.android.launcher
+          realActivity=com.huawei.android.launcher/.unihome.UniHomeLauncher
+          baseDir=/system/app/HwLauncher6/HwLauncher6.apk
+          dataDir=/data/user_de/0/com.huawei.android.launcher
+          stateNotNeeded=true componentSpecified=false mActivityType=home
+          compat={480dpi} labelRes=0x7f0d0027 icon=0x7f0200a8 theme=0x2060013
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN_#Hans,en_AS] ldltr sw360dp w360dp h696dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2160, 1080) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=undefined} nonFullScreen=0 suim:1 s.27}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN_#Hans,en_AS] ldltr sw360dp w360dp h696dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2160) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=home} nonFullScreen=0 suim:1 s.27}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN_#Hans,en_AS] ldltr sw360dp w360dp h696dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2160) mAppBounds=Rect(0, 0 - 1080, 2160) mWindowingMode=fullscreen mActivityType=home} nonFullScreen=0 suim:1 s.27}
+          OverrideConfiguration={0.0 ?mcc?mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mWindowingMode=undefined mActivityType=home} nonFullScreen=0}
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=ff191919
+           backgroundColor=ffffffff
+           statusBarColor=ffffffff
+           navigationBarColor=ffffffff
+          launchFailed=false launchCount=0 lastLaunchTime=-1d18h18m24s612ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=12816]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=true idle=true mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=home
+          waitingVisible=false nowVisible=false lastVisibleTime=-58m36s66ms
+          connections=[ConnectionRecord{1c07580 u0 CR IMP WACT com.huawei.search/.services.overlay.LauncherOverlayService:@d4a71bf}, ConnectionRecord{519b2bc u0 CR IMP WACT com.huawei.search/.services.overlay.LauncherOverlayService:@d4a71bf}, ConnectionRecord{db76222 u0 CR IMP WACT com.huawei.search/.services.overlay.LauncherOverlayService:@d4a71bf}, ConnectionRecord{14d08c u0 CR IMP WACT DEAD com.huawei.search/.services.overlay.LauncherOverlayService:@d4a71bf}, ConnectionRecord{674d6fd u0 CR IMP WACT com.huawei.search/.services.overlay.LauncherOverlayService:@d4a71bf}, ConnectionRecord{e4804a2 u0 CR IMP WACT com.huawei.intelligent/.remoteservice.LauncherOverlayService:@424b29a}, ConnectionRecord{f2727cb u0 CR IMP WACT DEAD com.huawei.intelligent/.remoteservice.LauncherOverlayService:@424b29a}]
+          resizeMode=RESIZE_MODE_RESIZEABLE
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+
+    Running activities (most recent first):
+      TaskRecord{af3e269 #1 A=com.huawei.android.launcher U=0 StackId=0 sz=1}
+        Run #0: ActivityRecord{3bb4564 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}
+
+    mLastPausedActivity: ActivityRecord{3bb4564 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}
+
+  ResumedActivity: ActivityRecord{220dbe4 u0 com.xhb.androidoservice/.MainActivity t521}
+  mFocusedStack=ActivityStack{a36de77 stackId=111 type=standard mode=fullscreen visible=true translucent=false, 1 tasks} mLastFocusedStack=ActivityStack{a36de77 stackId=111 type=standard mode=fullscreen visible=true translucent=false, 1 tasks}
+  mCurTaskIdForUser={0=521}
+  mUserStackInFront={}
+  displayId=0 stacks=4
+   mHomeStack=ActivityStack{faa901d stackId=0 type=home mode=fullscreen visible=false translucent=true, 1 tasks}
+  isHomeRecentsComponent=true  KeyguardController:
+    mKeyguardShowing=true
+    mAodShowing=false
+    mKeyguardGoingAway=false
+    mOccluded=false
+    mDismissingKeyguardActivity=null
+    mDismissalRequested=false
+    mVisibilityTransactionDepth=0
+  LockTaskController
+    mLockTaskModeState=NONE
+    mLockTaskModeTasks=
+    mLockTaskPackages (userId:packages)=
+      u0:[]
