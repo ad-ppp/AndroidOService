@@ -12,5 +12,5 @@ android.app.RemoteServiceException: Context.startForegroundService() did not the
 ```
 
 ## 查看 Activity 栈
-- adb shell dumpsys activity services [<package-name>]
+- adb shell dumpsys activity services ${<package-name>}
 - adb shell dumpsys activity activities
